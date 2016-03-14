@@ -95,9 +95,11 @@
 			}
 			$social .='</ul>'; 
 		
-		?>		
+		?>
+		
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
 				<?php wp_nav_menu( array(  
 				'theme_location' => 'primary',
 				'container'  => '',
@@ -107,6 +109,9 @@
 				'walker' => new webriti_nav_walker()
 				 ) );
 				?>
+				<!--ul class="head-contact-social nav navbar-nav navbar-right" align="right"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></ul-->
+
+				
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
 </nav>	
