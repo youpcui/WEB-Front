@@ -16,7 +16,7 @@ body {
     padding:0;
 	background: #ffffff;
     color: #727272;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Corbel", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 25px;
 	background-attachment: fixed;
@@ -129,7 +129,7 @@ h6, .h6 {
 .slide-text-bg1 h2 {
 	background-color: rgba(255, 255, 255, 0.9);
 	color: #242526;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-weight: normal;
 	border-radius: 2px;
@@ -154,7 +154,7 @@ h6, .h6 {
 .slide-text-bg2 span {
   background-color: rgba(45, 47, 49, 0.8);
   color: #ffffff;
-  font-family: 'Open Sans';
+  font-family: 'Corbel';
   font-weight: 400;
   font-size: 15px;
   font-weight: normal;
@@ -184,7 +184,7 @@ h6, .h6 {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open sans';
+    font-family: 'Corbel';
 	font-weight:600;
 	color: #ffffff;
 	transition: all 0.3s ease-in-out 0s;
@@ -318,7 +318,7 @@ h6, .h6 {
 .contact-area:hover .contact-icon i { padding-top: 10px; }
 .contact-area h6 {
 	color: #ffffff;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -327,7 +327,7 @@ h6, .h6 {
 }
 .contact-area h4 {
     color: #ffffff;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
     font-size: 20px;
     letter-spacing: 1px;
@@ -347,13 +347,13 @@ h6, .h6 {
 }
 .section-heading-title h1 {
     color: #242526;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     margin: 0 0 10px;
 }
 .section-heading-title p {
     color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     line-height: 25px;
@@ -382,7 +382,7 @@ h6, .h6 {
 .service-area:hover .service-icon i { padding-top: 10px; }
 .service-area h3 {
     color: #242526;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
     font-size: 20px;
     letter-spacing: 0px;
@@ -392,7 +392,7 @@ h6, .h6 {
 .service-area p {
 
 	color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     letter-spacing: 0.2px;
@@ -434,7 +434,7 @@ h6, .h6 {
 }
 .callout-section p {
 	color: #ffffff;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 18px;
     letter-spacing: 0.2px;
@@ -452,7 +452,7 @@ h6, .h6 {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 20px;
@@ -472,7 +472,7 @@ h6, .h6 {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 20px;
@@ -503,7 +503,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-sm-area:hover .blog-sm-box img { opacity: 0.8; } 
 .blog-post-sm {
 	color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	font-size: 13px;
 	letter-spacing: 0px;
@@ -521,7 +521,7 @@ a:hover, a:focus { text-decoration: none !important;}
 }
 .blog-sm-area h3 {
     color: #242526;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
     font-size: 20px;
     letter-spacing: 0px;
@@ -531,7 +531,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-sm-area h3 > a { color: #242526; transition: all 0.3s ease 0s; }
 .blog-sm-area p {
 	color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     letter-spacing: 0.2px;
@@ -545,7 +545,7 @@ a:hover, a:focus { text-decoration: none !important;}
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:700;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 13px;
@@ -563,7 +563,7 @@ a:hover, a:focus { text-decoration: none !important;}
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight: 600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 13px;
@@ -592,7 +592,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-addr-icon i { font-size: 30px; }
 .footer-widget-address address {
     color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 16px;
     line-height: 27px;
@@ -606,7 +606,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-widget-title, 
 .footer-widget-title a.rsswidget {
     color: #242526;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 27px;
     line-height: 35px;
@@ -622,7 +622,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-blog-post:last-child { margin-bottom: 0px; padding-bottom: 0px; }
 .footer-blog-post h3 {
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 16px;
     line-height: 22px;
@@ -633,7 +633,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-blog-post h3 a { color: #242526; transition: all 0.3s ease 0s; }
 .footer-blog-post span {
     color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 13.5px;
     line-height: 20px;
@@ -661,7 +661,7 @@ a:hover, a:focus { text-decoration: none !important;}
     color: #45494b;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 14px;
     font-weight: normal;
@@ -682,7 +682,7 @@ a:hover, a:focus { text-decoration: none !important;}
 }
 .footer-widget-column ul li {
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     line-height: 22px;
@@ -714,7 +714,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .footer-copyright { padding: 30px 0; }
 .footer-copyright p {
     color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 14px;
     line-height: 20px;
@@ -787,7 +787,7 @@ a:hover, a:focus { text-decoration: none !important;}
 	list-style: none outside none;
 	margin-bottom: 0px;
 	padding: 10px 0;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	text-align: right;
 	font-size: 15px;
@@ -819,7 +819,7 @@ a:hover, a:focus { text-decoration: none !important;}
 }
 .blog-post-date-area .date {
 	color: #ffffff;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 40px;
 	padding: 12px 0 13px;
@@ -829,7 +829,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-post-date-area .month-year {
 	color: #ffffff;
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 14px;
     line-height: 20px;
@@ -839,7 +839,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-post-date-area .comment {
 	background-color: #2a2a2a;
 	color: #d0d0d0;
-   font-family: 'Open Sans';
+   font-family: 'Corbel';
 	font-weight:600;
     font-size: 15px;
     line-height: 20px;
@@ -859,7 +859,7 @@ a:hover, a:focus { text-decoration: none !important;}
 }
 .blog-post-lg {
 	color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	font-size: 15px;
 	letter-spacing: 0.2px;
@@ -880,7 +880,7 @@ a:hover, a:focus { text-decoration: none !important;}
 .blog-lg-area-right h3, 
 .blog-lg-area-full h3  {
     color: #242526;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     font-size: 27px;
     letter-spacing: 0px;
@@ -897,7 +897,7 @@ a:hover, a:focus { text-decoration: none !important;}
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 14px;
@@ -915,7 +915,7 @@ a.more-link {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 14px;
@@ -946,7 +946,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .blog-paragraph-image > .media > .alignleft img { margin-right: 30px; }
 .blog-description p {
     color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     line-height: 27px;
@@ -958,7 +958,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .comment-title, .contact-title { display: block; margin: 0 0 25px; padding: 0 0 0px; }
 .comment-title h3, .contact-title h3 {
     color: #242526;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     letter-spacing: 0px;
     margin: 0;
@@ -981,14 +981,14 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 }
 .blog-author h2 {
     color: #242526;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     letter-spacing: 1px;
     margin: 0 0 5px;
 }
 .blog-author span {
 	display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -996,7 +996,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 }
 .blog-author p {
     color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
     letter-spacing: 1px;
@@ -1054,7 +1054,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 }
 .comment-detail-title {
     color: #242526;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 15px;
     letter-spacing: 0;
@@ -1064,7 +1064,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .comment-date {
 	display: block;
     color: #8f969c;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
     font-size: 14px;
     line-height: 20px;
@@ -1075,7 +1075,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .comment-date a { color: #8f969c; }
 .comment-detail p {
     color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     font-size: 14px;
     letter-spacing: 0.5px;
@@ -1086,7 +1086,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .reply { font-size: 13px; float: right; }
 .reply a {
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 15px;
     letter-spacing: 0;
@@ -1116,7 +1116,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 	display: inline-block;
 	width: 100%;
 	vertical-align: middle;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	height: 46px;
 	padding: 6px 12px;
@@ -1141,7 +1141,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 	width: 100%;
 	vertical-align: middle;
 	padding: 6px 12px;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-size: 15px;
 	line-height: 20px;
@@ -1171,7 +1171,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .blogdetail-btn a, .cont-btn a  {
 	color: #FFFFFF;
 	display: inline-block;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	font-size: 16px;
 	line-height: 20px;
@@ -1225,7 +1225,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 	height: 45px;
 	border-radius: 2px;
 	border: 1px solid #e9e9e9;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -1241,7 +1241,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 	border-top-right-radius: 2px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	letter-spacing: 0.2px;
     color: #ffffff;
@@ -1263,7 +1263,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .sidebar-blog-post:last-child { margin-bottom: 0px; padding-bottom: 0px; }
 .sidebar-blog-post h3 {
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 16px;
     line-height: 22px;
@@ -1274,7 +1274,7 @@ a.more-link:hover, a.more-link:focus { color: #ffffff; }
 .sidebar-blog-post h3 a { color: #242526; transition: all 0.3s ease 0s; }
 .sidebar-blog-post span {
     color: #727272;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 13.5px;
     line-height: 20px;
@@ -1300,7 +1300,7 @@ ul.post-content{ margin-bottom: 0px; list-style: none outside none; padding: 0; 
 ul.post-content li {
 	border-bottom: 1px dotted #c5d1dc;
 	display: block;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-size: 14px;
 	line-height: 20px;
@@ -1328,7 +1328,7 @@ ul.post-content > li > a:before {
 	color: #45494b;
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-size: 14px !important;
 	line-height: 20px;
@@ -1353,7 +1353,7 @@ ul.post-content > li > a:before {
 	color: #242526;
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	transition: all 0.3s ease 0s;
 	font-size: 18px;
@@ -1404,7 +1404,7 @@ ul.post-content > li > a:before {
 }
 .error-404 p {
     color: #727272;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1417,7 +1417,7 @@ a.error-btn {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:600;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1468,7 +1468,7 @@ a.error-btn:before {
 .sidebar-widget > ul  > li:last-child { padding: 10px 0 0px; }
 .sidebar-widget > ul > li{
 	display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
 	font-size: 14px;
     line-height: 25px;
@@ -1479,7 +1479,7 @@ a.error-btn:before {
 }
 .sidebar-widget ul.children li {
     display: block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:400;
 	font-size: 14px;
     line-height: 20px;
@@ -1500,7 +1500,7 @@ a.error-btn:before {
 .sidebar-widget > ul > li > a {
 	color: #727272;	
 	font-size: 14px;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-size: 14px;
 }
@@ -1523,7 +1523,7 @@ input {
 	height: 45px;
 	border-radius: 2px;
 	border: 1px solid #e9e9e9;
-	font-family: 'Open Sans';
+	font-family: 'Corbel';
 	width: 100%;
 	font-weight:400;
 	-webkit-box-shadow: none;
@@ -1540,7 +1540,7 @@ input {
 .blogdetail-btn, .cont-btn button {
 	color: #FFFFFF;
 	display: inline-block;
-	font-family: 'Open sans';
+	font-family: 'Corbel';
 	font-weight:600;
 	font-size: 16px;
 	line-height: 20px;
@@ -1561,7 +1561,7 @@ input {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight:700;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 13px;
@@ -1580,7 +1580,7 @@ input {
 	border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	font-weight: 600;
 	transition: all 0.3s ease-in-out 0s;
     font-size: 13px;
@@ -1630,7 +1630,7 @@ div.header-content h4 {
 
 /*Header Widget and Top contact detail Section--------------------------------------------------------------------------*/
 .top-contact-detail-section h3 {
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
 	color: #fff;
     letter-spacing: 0.5px;
     line-height: 1.1;
@@ -1665,7 +1665,7 @@ word-wrap: break-word;
 	padding: 0px 0px 10px; 
 	font-size: 15px;
 	line-height: 22px;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
     font-weight: 400;
 	color: #fff; 
 	list-style: none;
@@ -1693,7 +1693,7 @@ word-wrap: break-word;
 .top-contact-detail-section span.rss-date  {
     font-size: 15px;
 	line-height: 22px;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
     font-weight: 400;
 }	
 .top-contact-detail-section .rssSummary { 
@@ -1775,7 +1775,7 @@ word-wrap: break-word;
     display: inline-block;
     width: 100%;
     vertical-align: middle;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
     font-weight: 400;
     height: 46px;
     padding: 6px 12px;
@@ -1790,7 +1790,7 @@ word-wrap: break-word;
 	border-radius: 0;
 	border: 1px solid #e9e9e9;
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: 'Corbel';
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 14px;
@@ -1805,7 +1805,7 @@ word-wrap: break-word;
 .wpcf7-submit {
 	color: #FFFFFF;
     display: inline-block;
-    font-family: 'Open sans';
+    font-family: 'Corbel';
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -1824,13 +1824,13 @@ word-wrap: break-word;
 }
 span.wpcf7-not-valid-tip
 {
-font-family: 'Open sans';
+font-family: 'Corbel';
 font-weight:400;
 font-size:14px;
 }
 div.wpcf7-validation-errors {
     border: 2px solid #eee;
-	font-family: 'Open sans';
+	font-family: 'Corbel';
 	font-weight:400;
 	font-size:14px;
 }
