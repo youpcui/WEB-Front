@@ -19,27 +19,27 @@ if($slider_setting['home_banner_enabled'] == 0 ) {
 		<div class="carousel-inner" role="listbox">
 		<div class="item active">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide1.jpg">
-			<div class="container slide-caption">
+			<!--div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is Mixed corporate layout with simple and clean design ready for professional business websites. Let us introduce core features of Mixed!','appointment'); ?></span></div>	
 				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
-			</div>
+			</div-->
 		</div>  
 		<div class="item">
 		   <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide2.jpg">
-			<div class="container slide-caption">
+			<!--div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is Mixed corporate layout with simple and clean design ready for professional business websites. Let us introduce core features of Mixed!','appointment'); ?></span></div>	
 				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
-			</div>
+			</div-->
 		</div>
 		<div class="item">
 		  <img src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/slide3.jpg">
-			<div class="container slide-caption">
+			<!--div class="container slide-caption">
 				<div class="slide-text-bg1"><h2><?php _e('Powerful Bootstrap Theme','appointment'); ?></h2></div>
 				<div class="slide-text-bg2"><span><?php _e('This is Mixed corporate layout with simple and clean design ready for professional business websites. Let us introduce core features of Mixed!','appointment'); ?></span></div>	
 				<div class="slide-btn-area-sm"><a href="#" class="slide-btn-sm"><?php _e('Read More','appointment'); ?></a></div>		
-			</div>	
+			</div-->	
 		</div>
 		</div>  
 		<ul class="carou-direction-nav">
