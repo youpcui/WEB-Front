@@ -40,7 +40,6 @@ get_template_part('index','banner'); ?>
 <?php if($year != $previous_year || $month != $previous_month) : ?>
 
 <?php if($ul_open == true) : ?>
-	</ul>
 <?php endif; ?>
 
 	<h3><?php the_time('Y F'); ?></h3>
