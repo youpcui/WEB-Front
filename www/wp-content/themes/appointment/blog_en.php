@@ -12,7 +12,7 @@ if($news_setting['home_blog_enabled'] == 0 ) { ?>
 	<div class="container">
 	
 		<!-- Section Title -->
-		<div class="row">
+		<!--div class="row">
 			<div class="col-md-12">
 				<div class="section-heading-title">
 					<h1><?php echo $news_setting['blog_heading']; ?></h1>
