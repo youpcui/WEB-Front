@@ -14,7 +14,7 @@ else
 		<div class="container">
 			<div class="row">	
 				<div class="col-md-12">	
-						
+					
 						<h1><?php echo $callout_setting['home_call_out_title'];?></h1>
 						 <p><?php echo $callout_setting['home_call_out_description']; ?></p>
 					

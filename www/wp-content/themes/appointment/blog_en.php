@@ -1,61 +1,28 @@
 <?php
 /** 
 * @package WordPress 
-Template Name: blogpage 
+Template Name: blog_en
 */
 get_header();
-get_template_part('index','banner'); ?>
-<!-- Blog Section with Sidebar -->
-<div class="page-builder">
+get_template_part('index','banner'); 
+$appointment_options=theme_setup_data();
+$news_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
+if($news_setting['home_blog_enabled'] == 0 ) { ?>
+<div class="blog-section">
 	<div class="container">
+	
+		<!-- Section Title -->
 		<div class="row">
-			<!-- Blog Area -->
-			<div class="<?php appointment_post_layout_class(); ?>" >
-			<?php if( $post->post_content != "" )
-			{ ?>
-			<div class="blog-lg-area-left">
-			<?php if( have_posts()) :  the_post();
-			the_content(); 
-			endif; ?>
+			<div class="col-md-12">
+				<div class="section-heading-title">
+					<h1><?php echo $news_setting['blog_heading']; ?></h1>
+					<p><?php echo $news_setting['blog_description']; ?></p>
+				</div>
 			</div>
-
-
-<!--?php
-	$previous_year = $year = 0;
-	$previous_month = $month = 0;
-	$ul_open = false;
-
-	$myposts = get_posts('numberposts=-1&orderby=post_date&order=DESC');
-?>
-
-<?php foreach($myposts as $post) : ?>
-
-<?php
-	setup_postdata($post);
-	$year = mysql2date('Y', $post->post_date);
-	$month = mysql2date('n', $post->post_date);
-	$day = mysql2date('j', $post->post_date);
-?>
-
-<?php if($year != $previous_year || $month != $previous_month) : ?>
-
-<?php if($ul_open == true) : ?>
-<?php endif; ?>
-
-	<h3><?php the_time('Y F'); ?></h3>
-	<ul>
-<?php $ul_open = true; ?>
-<?php endif; ?>
-<?php $previous_year = $year; $previous_month = $month; ?>
-
-<li><span><?php the_time('Y/m/d'); ?></span> <span><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span> <span>&nbsp;<?php if(function_exists('the_views')) { the_views(); } ?></span> <?php comments_popup_link( __( 'Comments (0)', 'farlee' ), __( 'Comments (1)', 'farlee' ), __( 'Comments (%)', 'farlee' ), 'comments-link', __('Comments closed', 'farlee')); ?> </li>
-
-<?php endforeach; ?>
-</ul-->
-
-
-
-<div class="row">
+		</div>
+		<!-- /Section Title -->
+		
+		<div class="row">
 		<?php
 		
 		$cat_id = array();
@@ -106,23 +73,7 @@ get_template_part('index','banner'); ?>
 			  wp_reset_postdata();
 			endwhile;  ?>
 		</div>
-
-
-
-
-
-
-
-			<?php } comments_template( '', true ); // show comments ?>
-			</div>
-			<!-- /Blog Area -->			
-			<!--Sidebar Area-->
-			<div class="col-md-4">
-				<?php get_sidebar(); ?>
-			</div>
-			<!--Sidebar Area-->
-		</div>
 	</div>
+<?php } ?>
 </div>
-<!-- /Blog Section with Sidebar -->
 <?php get_footer(); ?>
