@@ -2,3 +2,7 @@
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+#ftp
+ftp/
+ftp/*
