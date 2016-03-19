@@ -112,6 +112,7 @@
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
         <div class="container">
+            <div class="head-subtitle" align="left">Intercultural Training and Coaching</div>
             <div class="head-polylang" align="right"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></div>				
         </div>
 </nav>	
