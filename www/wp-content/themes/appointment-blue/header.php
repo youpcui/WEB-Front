@@ -108,9 +108,12 @@
 				'walker' => new webriti_nav_walker()
 				 ) );
 				?>
-				<ul class="head-polylang nav navbar-nav " align="right"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></ul>				
+				
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
+        <div class="container">
+            <div class="head-polylang" align="right"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></div>				
+        </div>
 </nav>	
 <!--/Logo & Menu Section-->	
 <div class="clearfix"></div>

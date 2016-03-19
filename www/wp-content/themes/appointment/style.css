@@ -97,8 +97,8 @@ h6, .h6 {
 /*Header Polylang---------------------------------------------------------------------------------------------------*/
 .head-polylang {
 	float: right;
-	margin: 30px 30px 30px 35px;
-	padding: 15px 15px;
+	margin: -10px 0px 0px 0px;
+	padding: 0px 0px;
 }
 .head-polylang li {
 	background-color: #ffffff;
