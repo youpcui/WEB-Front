@@ -97,12 +97,12 @@ h6, .h6 {
 /*Header Polylang---------------------------------------------------------------------------------------------------*/
 .head-polylang {
 	float: right;
-	margin: -10px 0px 0px;
+	margin: -10px 0px 0px 0px;
 	padding: 0px 0px;
 }
 .head-subtitle {
 	float: left;
-	margin: -10px 90px 0px;
+	margin: -10px 90px 0px 0px;
 	padding: 5px 0px;
 }
 .head-polylang li {
