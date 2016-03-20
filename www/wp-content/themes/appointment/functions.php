@@ -28,6 +28,7 @@
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-client.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-footer-callout.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-template.php');
+	require( 'reg_strings.php');
 	
 	// Custom Category control 
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/custom-controls/select/category-dropdown-custom-control.php');
@@ -126,5 +127,4 @@ function appointment_add_to_author_profile( $contactmethods ) {
 		else
 		{ return $excerpt; }
 	}
-	
 ?>
