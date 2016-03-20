@@ -21,6 +21,9 @@
 	static $rs_callout_title = "Callout title";
 	static $rs_callout_area = "Callout area";
 
+	static $rs_news_title = "News title";
+	static $rs_news_area = "News area";
+
 	/*strings*/
 	static $rs_header_subtitle_s = "header_subtitle";
 
@@ -35,6 +38,9 @@
 
 	static $rs_callout_title_s = "Callout title";
 	static $rs_callout_area_s = "Callout area";
+
+	static $rs_news_title_s = "News title";
+	static $rs_news_area_s = "News area";
 
 	
 
@@ -54,5 +60,8 @@
 
 		pll_register_string($rs_callout_title, $rs_callout_title_s, $rs_callout); 
 		pll_register_string($rs_callout_area, $rs_callout_area_s, $rs_callout);
+
+		pll_register_string($rs_news_title, $rs_news_title_s, $rs_news); 
+		pll_register_string($rs_news_area, $rs_news_area_s, $rs_news);
 	}
 ?>

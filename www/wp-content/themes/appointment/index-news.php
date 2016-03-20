@@ -11,6 +11,8 @@ if($news_setting['home_blog_enabled'] == 0 ) { ?>
 				<div class="section-heading-title">
 					<h1><?php echo $news_setting['blog_heading']; ?></h1>
 					<p><?php echo $news_setting['blog_description']; ?></p>
+					<!--h1><?php global $rs_news_title_s; pll_e($rs_news_title_s); ?></h1>
+					<p><?php global $rs_news_area_s; pll_e($rs_news_area_s); ?></p-->
 				</div>
 			</div>
 		</div>
