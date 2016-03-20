@@ -18,6 +18,9 @@
 	static $rs_services_three_title = "Service 3";
 	static $rs_services_three_area = "Service area 3";
 
+	static $rs_callout_title = "Callout title";
+	static $rs_callout_area = "Callout area";
+
 	/*strings*/
 	static $rs_header_subtitle_s = "header_subtitle";
 
@@ -29,6 +32,11 @@
 	static $rs_services_two_area_s = "Services area 2";
 	static $rs_services_three_title_s = "Services 3";
 	static $rs_services_three_area_s = "Services area 3";
+
+	static $rs_callout_title_s = "Callout title";
+	static $rs_callout_area_s = "Callout area";
+
+	
 
 
 	/*register strings*/
@@ -43,5 +51,8 @@
 		pll_register_string($rs_services_two_area, $rs_services_two_area_s, $rs_services);
 		pll_register_string($rs_services_three_title, $rs_services_three_title_s, $rs_services); 
 		pll_register_string($rs_services_three_area, $rs_services_three_area_s, $rs_services);
+
+		pll_register_string($rs_callout_title, $rs_callout_title_s, $rs_callout); 
+		pll_register_string($rs_callout_area, $rs_callout_area_s, $rs_callout);
 	}
 ?>
