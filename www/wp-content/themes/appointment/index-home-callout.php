@@ -15,10 +15,10 @@ else
 			<div class="row">	
 				<div class="col-md-12">	
 					
-						<h1><?php echo $callout_setting['home_call_out_title'];?></h1>
-						 <p><?php echo $callout_setting['home_call_out_description']; ?></p>
-						<!--h1><?php global $rs_callout_title_s; pll_e($rs_callout_title_s); ?></h1>
-							<p><?php global $rs_callout_area_s; pll_e($rs_callout_area_s); ?></p-->
+						<!--h1><?php echo $callout_setting['home_call_out_title'];?></h1>
+						 <p><?php echo $callout_setting['home_call_out_description']; ?></p-->
+						<h1><?php global $rs_callout_title_s; pll_e($rs_callout_title_s); ?></h1>
+							<p><?php global $rs_callout_area_s; pll_e($rs_callout_area_s); ?></p>
 
 						<!--div class="btn-area">
 						<a href="<?php echo esc_url($callout_setting['home_call_out_btn1_link']); ?>" <?php if( $callout_setting['home_call_out_btn1_link_target'] == 1 ) { echo "target='_blank'"; } ?> class="callout-btn1"><?php echo $callout_setting['home_call_out_btn1_text']; 
