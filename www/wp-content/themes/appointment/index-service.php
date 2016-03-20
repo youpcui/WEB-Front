@@ -9,10 +9,10 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
 			<div class="col-md-12">
 			
 				<div class="section-heading-title">
-					<h1> <?php echo $service_setting['service_title']; ?></h1>
-					<p><?php echo $service_setting['service_description']; ?> </p>
-					<!--h1><?php global $rs_services_title_s; pll_e($rs_services_title_s); ?></h1>
-					<p><?php global $rs_services_area_s; pll_e($rs_services_area_s); ?></p-->
+					<!--h1> <?php echo $service_setting['service_title']; ?></h1>
+					<p><?php echo $service_setting['service_description']; ?> </p-->
+					<h1><?php global $rs_services_title_s; pll_e($rs_services_title_s); ?></h1>
+					<p><?php global $rs_services_area_s; pll_e($rs_services_area_s); ?></p>
 				</div>
 			</div>
 		</div>
@@ -25,10 +25,10 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
 							<i class="fa <?php echo $service_setting['service_one_icon']; ?>"></i>
 						</div>
 						<div class="media-body">
-							<h3><?php echo $service_setting['service_one_title']; ?></h3>
-							<p><?php echo $service_setting['service_one_description']; ?></p>
-							<!--h1><?php global $rs_services_one_title_s; pll_e($rs_services_one_title_s); ?></h1>
-							<p><?php global $rs_services_one_area_s; pll_e($rs_services_one_area_s); ?></p-->
+							<!--h3><?php echo $service_setting['service_one_title']; ?></h3>
+							<p><?php echo $service_setting['service_one_description']; ?></p-->
+							<h3><?php global $rs_services_one_title_s; pll_e($rs_services_one_title_s); ?></h3>
+							<p><?php global $rs_services_one_area_s; pll_e($rs_services_one_area_s); ?></p>
 						</div>
 					</div>
 				</div>
@@ -40,10 +40,10 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
 							<i class="fa <?php echo $service_setting['service_two_icon']; ?>"></i>
 						</div>
 						<div class="media-body">
-							<h3><?php echo $service_setting['service_two_title']; ?></h3>
-							<p><?php echo $service_setting['service_two_description']; ?></p>
-							<!--h1><?php global $rs_services_two_title_s; pll_e($rs_services_two_title_s); ?></h1>
-							<p><?php global $rs_services_two_area_s; pll_e($rs_services_two_area_s); ?></p-->
+							<!--h3><?php echo $service_setting['service_two_title']; ?></h3>
+							<p><?php echo $service_setting['service_two_description']; ?></p-->
+							<h3><?php global $rs_services_two_title_s; pll_e($rs_services_two_title_s); ?></h3>
+							<p><?php global $rs_services_two_area_s; pll_e($rs_services_two_area_s); ?></p>
 						</div>
 					</div>
 				</div>
@@ -55,15 +55,16 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
 							<i class="fa <?php echo $service_setting['service_three_icon']; ?>"></i>
 						</div>
 						<div class="media-body">
-							<h3><?php echo $service_setting['service_three_title']; ?></h3>
-							<p><?php echo $service_setting['service_three_description']; ?></p>
-							<!--h1><?php global $rs_services_three_title_s; pll_e($rs_services_three_title_s); ?></h1>
-							<p><?php global $rs_services_three_area_s; pll_e($rs_services_three_area_s); ?></p-->
+							<!--h3><?php echo $service_setting['service_three_title']; ?></h3>
+							<p><?php echo $service_setting['service_three_description']; ?></p-->
+							<h3><?php global $rs_services_three_title_s; pll_e($rs_services_three_title_s); ?></h3>
+							<p><?php global $rs_services_three_area_s; pll_e($rs_services_three_area_s); ?></p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="clearfix"></div>
+
+			<!--div class="clearfix"></div>
 			<div class="col-md-4">
 				<div class="service-area">
 					<div class="media">
@@ -102,7 +103,7 @@ if($service_setting['service_section_enabled'] == 0 ) { ?>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div-->
 			<div class="clearfix"></div>
 		</div>
 	</div>
