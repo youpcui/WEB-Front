@@ -113,15 +113,7 @@
 	</div><!-- /.container-fluid -->
         <div class="container">
             <div class="head-subtitle" align="left"><?php global $rs_header_subtitle_s; pll_e($rs_header_subtitle_s); ?></div>
-            <div class="head-polylang" align="left"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></div>
-				
-<!--li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UC-RfW9IYXOYC4nTvAb9Yb1g" ><i class="fa fa-youtube"></i></a></li>
-<li class="googleplus"><a target="_blank" href="https://plus.google.com/108823535568906182334" ><i class="fa fa-google-plus"></i></a></li>
-<li class="linkedin"><a target="_blank" href="https://fr.linkedin.com/in/denis-%2525E5%2525BE%2525B7%2525E5%2525B0%2525BC-niedringhaus-ab547740" ><i class="fa fa-linkedin"></i></a></li-->
-
-			<!--div class="head-contact-social" align="center">
-							
-			</div-->				
+            <div class="head-polylang" align="left"><?php pll_the_languages(array('show_flags'=>1,'show_names'=>0)); ?></div>			
         </div>
 </nav>	
 <!--/Logo & Menu Section-->	
