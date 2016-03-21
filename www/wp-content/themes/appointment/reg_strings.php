@@ -8,6 +8,7 @@
 	static $rs_button = "Content button"; //centent
 	static $rs_single = "Single"; //single
 	static $rs_comment = "Comment"; //comment template
+	static $rs_footer = "Footer"; //footer
 
 	/*names*/
 	static $rs_header_subtitle = "Subtitle";
@@ -35,6 +36,9 @@
 
 	static $rs_comment_reply = "Reply";
 
+	static $rs_footer_copyright = "Copyright";
+	static $rs_footer_developed = "Developed";
+
 	/*strings*/
 	static $rs_header_subtitle_s = "header_subtitle";
 
@@ -60,6 +64,9 @@
 	static $rs_single_aboutauthor_s = "About the Author";
 
 	static $rs_comment_reply_s = "Leave a reply";
+
+	static $rs_footer_copyright_s = "Some Rights Reserved";
+	static $rs_footer_developed_s = "Developed by";
 
 	/*register strings*/
 	if(function_exists('pll_register_string')){
@@ -87,5 +94,8 @@
 		pll_register_string($rs_single_aboutauthor, $rs_single_aboutauthor_s, $rs_single);
 
 		pll_register_string($rs_comment_reply, $rs_comment_reply_s, $rs_comment);
+
+		pll_register_string($rs_footer_copyright, $rs_footer_copyright_s, $rs_footer);
+		pll_register_string($rs_footer_developed, $rs_footer_developed_s, $rs_footer);
 	}
 ?>

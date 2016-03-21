@@ -23,6 +23,8 @@ if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
 					<?php echo $footer_setting[ 'footer_copyright_text']; ?>
 					</a>
 					<?php } // end if ?>
+					<?php global $rs_footer_copyright_s; pll_e($rs_footer_copyright_s) ?>
+					<i class="fa fa-wrench"></i> <?php global $rs_footer_developed_s; pll_e($rs_footer_developed_s) ?> <a target="_blank" href="http://ycui.fr">ycui</a>
 				</div>
 			</div>
 				<?php if($footer_setting['footer_social_media_enabled'] == 0 ) { 
@@ -36,7 +38,7 @@ if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
 			<ul class="footer-contact-social">
 				<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UC-RfW9IYXOYC4nTvAb9Yb1g" ><i class="fa fa-youtube"></i></a></li>
 				<li class="googleplus"><a target="_blank" href="https://plus.google.com/108823535568906182334" ><i class="fa fa-google-plus"></i></a></li>
-				<li class="linkedin"><a target="_blank" href="https://fr.linkedin.com/in/denis-%2525E5%2525BE%2525B7%2525E5%2525B0%2525BC-niedringhaus-ab547740" ><i class="fa fa-linkedin"></i></a></li>
+				<li class="linkedin"><a target="_blank" href="https://fr.linkedin.com/in/denis-德尼-niedringhaus-ab547740" ><i class="fa fa-linkedin"></i></a></li>
 				
 
 <!--				
