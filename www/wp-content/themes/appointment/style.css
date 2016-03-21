@@ -381,7 +381,7 @@ h6, .h6 {
     margin: 0 0 10px;
 }
 .section-heading-title p {
-    color: #727272;
+    color: #333;
     font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
@@ -420,7 +420,7 @@ h6, .h6 {
 }
 .service-area p {
 
-	color: #727272;
+	color: #333;
     font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
@@ -559,7 +559,7 @@ a:hover, a:focus { text-decoration: none !important;}
 }
 .blog-sm-area h3 > a { color: #242526; transition: all 0.3s ease 0s; }
 .blog-sm-area p {
-	color: #727272;
+	color: #333;
     font-family: 'Corbel';
 	font-weight:400;
     font-size: 15px;
@@ -720,7 +720,7 @@ a:hover, a:focus { text-decoration: none !important;}
     overflow: hidden;
     padding: 0;
 }
-.footer-widget-column ul li a { color: #727272; transition: all 0.3s ease 0s; }
+.footer-widget-column ul li a { color: #333; transition: all 0.3s ease 0s; }
 .footer-widget-column > ul > li > a:before {
     content: "\f192";
     font-family: FontAwesome;
@@ -1527,7 +1527,7 @@ a.error-btn:before {
 .sidebar-widget > ul > li { border-bottom: 1px dotted #d1d1d1; }
 .sidebar-widget > ul > li:last-child { border-bottom: 0 none; }
 .sidebar-widget > ul > li > a {
-	color: #727272;	
+	color: #333;	
 	font-size: 14px;
 	font-family: 'Corbel';
 	font-weight:400;
@@ -1796,7 +1796,7 @@ word-wrap: break-word;
 	z-index: 100000; /* Above WP toolbar. */
 }
 /* Contact Form 7 */
-.wpcf7 p { color: #727272; margin-top: 10px; }
+.wpcf7 p { color: #333; margin-top: 10px; }
 .wpcf7-text, .wpcf7-file, .wpcf7-number, .wpcf7-date, .wpcf7-select, .wpcf7-quiz{
 	color: #8f969c;
     background-color: transparent;
