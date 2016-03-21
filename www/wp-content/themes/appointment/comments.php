@@ -1,4 +1,5 @@
-<?php if ( post_password_required() ) : ?>
+<?php 
+	if ( post_password_required() ) : ?>
 	<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'appointment' ); ?></p>
 <?php return; endif; 
 		// code for comment
@@ -69,16 +70,18 @@
 			return $fields;
 		}
 		add_filter('comment_form_default_fields','appointment_fields');
+			global $rs_comment_reply_s; //2016-03-21 modify - ycui
+			global $rs_button_sendmsg_s; //2016-03-21 modify - ycui
 			$defaults = array(
 			'fields'=> apply_filters( 'comment_form_default_fields', $fields ),
 			'comment_field'=> '<div class="blog-form-group-textarea" >
 			<textarea id="comments" rows="7" class="blog-form-control-textarea" name="comment" type="text" placeholder="'.__('Message:','appointment').'"></textarea></div>',		
 			'logged_in_as' => '<p class="blog-post-info-detail">' . __( "Logged in as ",'appointment' ).'<a href="'. admin_url( 'profile.php' ).'">'.$user_identity.'</a>'. '<a href="'. wp_logout_url( get_permalink() ).'" title="'.__('Log out of this Account','appointment').'">'.__(" Log out?",'appointment').'</a>' . '</p>',
 			'id_submit'=> 'blogdetail-btn',
-			'label_submit'=>__( 'Send Message','appointment'),
+			'label_submit'=>__( pll_translate_string($rs_button_sendmsg_s,pll_current_language()),'appointment'),//2016-03-21 modify - ycui
 			'comment_notes_after'=> '',
 			'comment_notes_before' => '',
-			'title_reply'=> '<div class="comment-title"><h3>'.__('Leave a Reply', 'appointment').'</h3></div>',
+			'title_reply'=> '<div class="comment-title"><h3>'.__(pll_translate_string($rs_comment_reply_s,pll_current_language()), 'appointment').'</h3></div>',//2016-03-21 modify - ycui
 			'id_form'=> 'commentform'
 			);
 			ob_start();

@@ -6,6 +6,8 @@
 	static $rs_news = "Lasted news"; //latest news
 	static $rs_footer = "Footer"; //footer
 	static $rs_button = "Content button"; //centent
+	static $rs_single = "Single"; //single
+	static $rs_comment = "Comment"; //comment template
 
 	/*names*/
 	static $rs_header_subtitle = "Subtitle";
@@ -27,6 +29,11 @@
 	static $rs_news_by = "By";
 
 	static $rs_button_readmore = "Read More";
+	static $rs_button_sendmsg = "Send Message";
+
+	static $rs_single_aboutauthor = "About Author";
+
+	static $rs_comment_reply = "Reply";
 
 	/*strings*/
 	static $rs_header_subtitle_s = "header_subtitle";
@@ -48,9 +55,11 @@
 	static $rs_news_by_s = "By";
 
 	static $rs_button_readmore_s = "Read More";
-
+	static $rs_button_sendmsg_s = "Send Message";
 	
+	static $rs_single_aboutauthor_s = "About the Author";
 
+	static $rs_comment_reply_s = "Leave a reply";
 
 	/*register strings*/
 	if(function_exists('pll_register_string')){
@@ -73,5 +82,10 @@
 		pll_register_string($rs_news_by, $rs_news_by_s, $rs_news);
 
 		pll_register_string($rs_button_readmore, $rs_button_readmore_s, $rs_button);
+		pll_register_string($rs_button_sendmsg, $rs_button_sendmsg_s, $rs_button);
+
+		pll_register_string($rs_single_aboutauthor, $rs_single_aboutauthor_s, $rs_single);
+
+		pll_register_string($rs_comment_reply, $rs_comment_reply_s, $rs_comment);
 	}
 ?>
