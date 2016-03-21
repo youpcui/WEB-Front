@@ -3,8 +3,9 @@
 	static $rs_header = "Header"; //header
 	static $rs_services = "Services"; //services
 	static $rs_callout = "Callout"; //contact callout
-	static $rs_news = "Lasted news"; //Latest news
+	static $rs_news = "Lasted news"; //latest news
 	static $rs_footer = "Footer"; //footer
+	static $rs_button = "Content button"; //centent
 
 	/*names*/
 	static $rs_header_subtitle = "Subtitle";
@@ -23,6 +24,9 @@
 
 	static $rs_news_title = "News title";
 	static $rs_news_area = "News area";
+	static $rs_news_by = "By";
+
+	static $rs_button_readmore = "Read More";
 
 	/*strings*/
 	static $rs_header_subtitle_s = "header_subtitle";
@@ -41,6 +45,9 @@
 
 	static $rs_news_title_s = "News title";
 	static $rs_news_area_s = "News area";
+	static $rs_news_by_s = "By";
+
+	static $rs_button_readmore_s = "Read More";
 
 	
 
@@ -63,5 +70,8 @@
 
 		pll_register_string($rs_news_title, $rs_news_title_s, $rs_news); 
 		pll_register_string($rs_news_area, $rs_news_area_s, $rs_news);
+		pll_register_string($rs_news_by, $rs_news_by_s, $rs_news);
+
+		pll_register_string($rs_button_readmore, $rs_button_readmore_s, $rs_button);
 	}
 ?>

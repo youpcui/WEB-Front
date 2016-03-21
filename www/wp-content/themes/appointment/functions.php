@@ -110,10 +110,11 @@ function appointment_add_to_author_profile( $contactmethods ) {
 		else
 		{ return '<div class="slide-text-bg2">' .'<span>'.$output.'</span>'.'</div>'; }   
         }
-						
+	$button_readmore = pll_translate_string($rs_button_readmore_s,pll_current_language());					
 	function get_home_blog_excerpt()
 	{
 		global $post;
+		global $button_readmore;
 		$excerpt = get_the_content();
 		$excerpt = strip_tags(preg_replace(" (\[.*?\])",'',$excerpt));
 		$excerpt = strip_shortcodes($excerpt);		
@@ -122,7 +123,7 @@ function appointment_add_to_author_profile( $contactmethods ) {
 		$len=strlen($excerpt);	 
 		if($original_len>275) {
 		$excerpt = $excerpt;
-		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="blog-btn-sm">Read More</a></div>';
+		return $excerpt . '<div class="blog-btn-area-sm"><a href="' . get_permalink() . '" class="blog-btn-sm">'.$button_readmore.'</a></div>';
 		}
 		else
 		{ return $excerpt; }

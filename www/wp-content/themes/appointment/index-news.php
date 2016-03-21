@@ -46,7 +46,7 @@ if($news_setting['home_blog_enabled'] == 0 ) { ?>
 							  $news_setting = wp_parse_args(  get_option( 'appointment_options', array() ), $appointment_options );
 							if($news_setting['home_meta_section_settings'] == '' ) { ?>	
 							<div class="blog-post-sm">
-								<?php _e('By','appointment');?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"><?php echo get_the_author();?></a>
+								<?php global $rs_news_by_s; _e(pll_e($rs_news_by_s),'appointment');?><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"><?php echo get_the_author();?></a>
 								<a href="<?php echo get_month_link(get_post_time('Y'),get_post_time('m')); ?>">
 								<?php echo get_the_date('M j, Y'); ?></a>
 								<?php 	$tag_list = get_the_tag_list();
